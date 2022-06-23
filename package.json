@@ -1,0 +1,26 @@
+{
+  "name": "w11-multiplewordsaver-du",
+  "version": "1.0.0",
+  "description": "note taker",
+  "main": "server.js",
+  "scripts": {
+    "test": "n/a",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Floki-themad/W11-multipleWordSaver-DU.git"
+  },
+  "keywords": [
+    "n/a"
+  ],
+  "author": "n/a",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Floki-themad/W11-multipleWordSaver-DU/issues"
+  },
+  "homepage": "https://github.com/Floki-themad/W11-multipleWordSaver-DU#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
