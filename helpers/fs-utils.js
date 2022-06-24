@@ -1,12 +1,11 @@
 const fs = require('fs');
 const util = require('util');
-const { param } = require('../routes');
 
 const readFromFIle = util.promisify(fs.readFile);
 
-@param{string}
-@param{object}
-@returns{void}
+// @param{string}
+// @param{object}
+// @returns{void}
 
 const writeToFile = (destination, content) => {
     fs.writeFile(destination, JSON.stringify(content, null, 4), (err) => {
@@ -14,9 +13,9 @@ const writeToFile = (destination, content) => {
     });
 }
 
-@param{string}
-@param{object}
-@returns{void}
+// @param{string}
+// @param{object}
+// @returns{void}
 
 const readAndAppend = (content, file) => {
     fs.readFile(file, 'utf8', (err, data)=> {
